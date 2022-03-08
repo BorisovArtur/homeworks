@@ -1,0 +1,93 @@
+LESSON 1 HOMEWORK
+
+
+1. Create the variable with the name => first and declare the value 'Hello'
+
+2. Create the variable with the name => second and declare the value 'World!'
+
+3. Create the variable with the name => greeting and declare the value of the variable first and second
+
+4. Print the result of greeting to console
+the result in the end should be "Hello World!"
+
+let a = "Hello ";
+let b = "World!";
+let c = a + b;
+console.log(c);
+
+      ===================================
+
+1. Create the variable with the name => numberOne, and declare the value to 10, Print the result to console
+
+2. Create the variable with the name => numberTwo, and declare the value to 12, Print the result to console.
+
+3. Create the variable with the name => sum(сумма), and declare the value of numberOne plus numberTwo, Print the result to console.
+
+4. Create the variable with the name => subtract(отнять), and declare the result of  numberOne minus numberTwo (and reverse numberTwo minus numberOne), Print both results to console.
+
+5.Do the same with multiplication and division.
+
+
+let numberOne = 10,
+  numberTwo = 12,
+    sum = numberOne + numberTwo,
+      subtract = numberOne - numberTwo,
+        reverse = numberTwo - numberOne,
+    multiplication = numberTwo * numberOne,
+division = numberTwo / numberOne;
+console.log(sum, subtract, reverse, multiplication, division);
+
+      ===================================
+
+1. Create the variable with the name => name, declare the value "John", Print the result to console.
+
+2. Create the variable with the name => age, declare the value 41, Print the result to console.
+
+
+3. Create the variable with the name gratings, declare the value of the sum of variables name & age, Print the result to console.
+
+let name = "John",
+    age = 41,
+    sum = name + ' ' + age;
+console.log(name, age, sum);
+
+        ===================================
+
+1. Create the variable with the name a, declare the value of true, reesign the value to false. Print the result to console.
+
+let a = true;
+a = false;
+console.log(a);
+
+        ===================================
+
+1. Создайте переменные с именами a, b и с, присвойте переменным любые цифровый значения (целые или дробные).  
+С помощью переприсваивания переменных увеличьте a на 2, уменьшите b на 4 и разделите с на 6. Выведите a, b, c в консоль.
+
+let a = 10, b = 9, c = 18;
+a = a + 2;
+b = b - 4;
+c = c / 6;
+console.log(a, b, c);
+
+      ===================================
+
+
+1. Find the perimetr and area of the square. Console the result.
+
+let squareSide = 10;
+console.log(squareSide * 4);
+
+2. Find the perimetr and area of the rectangle. Console the result.
+
+let a = 10;
+let b = 5;
+console.log((a + b) * 2);
+
+1. Crate a variable with name - price and assign the value 5; 
+2. Create a variable with name - amount and assign the value 10;
+3. Create a variable with name totalPrice an d Calculate the results;
+4. Console log string 'The total price is {put total price here} for {put amount here} items'
+
+let price = 5, amount = 10, totalPrice = price * amount;
+console.log(`The total price is ${totalPrice} for ${amount} items` );
