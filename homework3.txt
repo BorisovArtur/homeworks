@@ -1,0 +1,109 @@
+LESSON 3 HOMEWORK
+
+#1
+Create the variable with the name name, and declare the value - any name of your choise;
+
+Create the variable with the name age, and declare the any value from the range [1; 80];
+
+Create the variables with the names: isChild; isTeenager; isAdult. 
+These variables should contain boolean values, the age must be taken 
+into account: child: [1; 10] ,  teenager: [11; 18] ,  adult: 19 and over.
+
+print 3 phrases to the console, whether the person is a child, 
+or a teenager, or an adult, according this form: "Is Anna a child? false"
+
+let name = "Petya";
+let age = 25;
+let isChild = (age >= 1) && (age <= 10);
+let isTeenager = (age >= 11) && (age <= 18);
+let isAdult = (age >= 19);
+console.log(`Is ${name} a child - ${isChild}`);
+console.log("Is Petya a teenager - " + isTeenager);
+console.log("Is Petya a adult - " + isAdult);
+
+#2
+Задайте переменную х;
+Назначьте переменную typeX, равную типу данных х;
+Выведите в консоль тип переменной typeX.
+let x;
+let typeX = typeof x;
+console.log(typeX);
+
+#3
+Склад магазина получил 20 утюгов, 15 микроволновок, 12 кофварок и кастрюли.  
+Создайте переменные с подходящими названиями и переменную для общего 
+количества предметов, запишите в них соответствующие значения;
+
+Выведите в консоль общее количество предметов.
+
+Будьте осторожны с пропущенными в документах данными! :)
+let irons = 20;
+let microwaves = 15;
+let coffemakers = 12;
+let pots;
+let totalAmount = irons + microwaves + coffemakers + pots;
+console.log(totalAmount);
+
+
+#4
+Создайте переменные со значениями: null; undefined; "word"; ''; NaN; (NaN + ''); ('a' - 7) .
+
+Проверьте, являются ли они «не числом»  ->  isNaN();
+
+Проверьте те же данные, равны ли они NaN ?
+
+let a1 = null;
+let a2 = undefined;
+let a3 = "word";
+let a4 = '';
+let a5 = NaN;
+let a6 = (NaN + '');
+let a7 = ('a' - 7);
+
+console.log(isNaN(a1));
+console.log(isNaN(a2));
+console.log(isNaN(a3));
+console.log(isNaN(a4));
+console.log(isNaN(a5));
+console.log(isNaN(a6));
+console.log(isNaN(a7));
+
+console.log(Number.isNaN(a1));
+console.log(Number.isNaN(a2));
+console.log(Number.isNaN(a3));
+console.log(Number.isNaN(a4));
+console.log(Number.isNaN(a5));
+console.log(Number.isNaN(a6));
+console.log(Number.isNaN(a7));
+
+#5
+Given three numbers: d = 1.1; e = -1.1; f = 0.
+Use comparison operators to print to the console 
+if these numbers are not positive?
+let d = 1.1;
+let e = -1.1;
+let f = 0;
+console.log("d is not positive = " + (d < 0));
+console.log("e is not positive = " + (e < 0));
+console.log("f is not positive = " + (f < 0));
+
+#6
+let num1 = "5";
+let num2 = " 3.4";
+let num3 = " ";
+let num4 = true;
+let sum = num1 + num2 + num3 + num4;
+let sum1 = Number(num1) + Number(num2) + Number(num3) + +num4;
+console.log(sum);
+console.log(sum1);
+
+найдите сумму переменных
+Переведите переменные в number и снова найдите сумму
+
+#10
+--- baNaNa ---
+используя только эти переменные, вывести в консоль слово "baNaNa"
+
+let a = 'a';
+let b = 'b';
+console.log(b + a + +a + a);
