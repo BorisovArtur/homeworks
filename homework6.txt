@@ -1,0 +1,21 @@
+1. Заполнить массив числами от 0 до 20 включительно, за исключением чисел, кратных 5 (using continue)
+
+let arr = Array.from(Array(21).keys());
+for(let i = 0; i < arr.length; i++) {
+  if(i % 5 == 0) continue;
+  console.log([arr[i]]);
+}
+
+2. Создайте цикл по arr который остановится если arr[i] будет равен num 
+
+ const arr = [1, 4, 6, 13, 0, -45, 12];
+const num = 6;
+function findNum(arr){
+  for (let i = 0; i < arr.length; i++){
+    if (arr[i] == num){
+    return num;
+    break;
+    }
+  }
+}
+console.log(findNum(arr));

@@ -1,0 +1,68 @@
+LESSON 5 HW
+
+
+----------------------- Task 1.-------------------------
+const animals = ['pig', 'goat', 'sheep'];
+
+1. Add a new element to on zero index in the array
+
+const withLion = ['lion',...animals];
+console.log(withLion);
+
+2. Add a new element to end of the array 
+
+const withZebra = [...animals, 'zebra'];
+console.log(withZebra);
+
+3. Remove last element of the arrey
+
+console.log(withZebra.pop());
+console.log(withZebra);
+
+4. Remove the first el of the arrey
+
+console.log(withZebra.shift());
+console.log(withZebra);
+
+
+--------------------------------- Task 2.--------------------
+1. Creates a new array with values from 0 to 10
+using as much ways as you can
+
+const arr = [7, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(arr);
+if(arr[0]+1 % 2 == 0){
+  console.log(true);
+}else {
+  console.log(false);
+}
+
+--------------------------------- Task 3.--------------------
+
+1. Create an array with any values
+
+const arr1 = [1, 2, 3, 4];
+
+2. Create a second array and 
+asigne to this second arrey a value of a first array without changing the first one
+print both arrays to the console
+
+const arr2 = Array.of(...arr1);
+arr2.push(5);
+
+console.log(arr1);
+console.log(arr2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
